@@ -1,67 +1,59 @@
-# Jojo E-Commerce Mastery
+# 🛒 JOJO E-COMMERCE MASTERY
 
-Plateforme de formation e-commerce complète. Dashboard interactif, modules de cours, quiz, système de progression et intégration IA.
+> Plateforme e-commerce complète avec panier, paiement et gestion produits
 
-Développé par **[@JOJODEVS-GIT](https://github.com/JOJODEVS-GIT)**
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
----
+## 📋 Description
 
-## Fonctionnalités
+Plateforme de formation e-commerce complète. Application web full-stack avec dashboard, modules de formation, système d'authentification, gestion de favoris, quiz interactifs, et suivi de progression. Conçue pour accompagner les entrepreneurs dans le lancement de leur boutique en ligne.
 
-- **Dashboard** personnalisé avec suivi de progression
-- **Modules de formation** : Fondations, Shopify, Facebook Ads, Marketing, Sourcing
-- **Quiz** interactifs avec scoring
-- **Leaderboard** et classement
-- **Certificats** de complétion
-- **Ressources** : Outils, APIs, Prompts, Produits Gagnants, Cas Pratiques, Checklists
-- **Workspace** collaboratif avec CRM intégré
-- **Plan d'étude** et roadmap personnalisés
-- **Notes** et favoris
-- **Intégration Gemini AI** pour l'assistance
-- **Système d'abonnement** et tarification
-- **Panel admin**
-- Dark mode
+## 🚀 Démo en ligne
 
-## Stack
+👉 [jojo-ecommerce-mastery.vercel.app](https://jojo-ecommerce-mastery.vercel.app)
 
-- **React 19** + **TypeScript**
-- **Vite** — Build tool
-- **React Router 7** — Routing
-- **Zustand** — State management
-- **Tailwind CSS** — Styling
-- **Lucide React** — Icônes
-- **Google Gemini AI** — Assistant IA
+## 📁 Structure du projet
+
+```
+JOJO-ECOMMERCE-MASTERY/
+├── src/
+│   ├── components/     # Composants UI réutilisables
+│   ├── features/       # Modules (auth, workspace)
+│   ├── pages/          # Pages de l'application
+│   ├── services/       # Services (API, analytics)
+│   ├── stores/         # State management
+│   └── utils/          # Utilitaires et constantes
+├── server/             # Backend JSON server
+├── scripts/            # Scripts de validation
+├── package.json
+├── tailwind.config.js
+└── vite.config.ts
+```
+
+## 🛠️ Technologies
+
+- **TypeScript** — Typage statique
+- **React** — Interface utilisateur
+- **Vite** — Build tool ultra-rapide
+- **Tailwind CSS** — Styling utilitaire
 - **Vitest** — Tests unitaires
 
-## Architecture
+## ✨ Fonctionnalités
 
-```
-src/
-├── app/          # Router, routes, guards
-├── components/   # UI, layout, features
-├── features/     # Auth, workspace
-├── pages/        # Toutes les pages (20+)
-├── services/     # Auth, analytics, Gemini, storage
-├── stores/       # Zustand stores (progress, subscription, theme...)
-├── types/        # TypeScript types
-└── utils/        # Constants, helpers
-```
+- Dashboard avec statistiques et progression
+- Modules de formation (Shopify, Facebook Ads, Marketing, Sourcing)
+- Système d'authentification complet
+- Quiz interactifs par module
+- Gestion des favoris et notes
+- Leaderboard et certificats
+- Mode dark/light
 
-## Lancer le projet
+## 👤 Auteur
 
-```bash
-npm install
-npm run dev
-```
-
-## Tests
-
-```bash
-npm test
-npm run test:unit
-npm run test:coverage
-```
-
-## Licence
-
-Tous droits réservés.
+**Josué Hounkanrin (JOJO.DEV's)**
+- GitHub: [@JOJODEVS-GIT](https://github.com/JOJODEVS-GIT)
+- Email: jojohkdev@gmail.com
+- 📍 Cotonou, Bénin
